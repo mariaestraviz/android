@@ -1,0 +1,52 @@
+ <!-- LinearLayout distribuye los controles uno tras otro, en este caso Vertical -->
+  
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView android:id="@+id/LblTitle"
+        android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+   		android:text="@string/title"></TextView>
+    
+    
+    <EditText
+        android:id="@+id/TxtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"></EditText>
+    
+    <TextView android:id="@+id/LblName"
+        android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+   		android:text="@string/name"></TextView>
+    
+    <!-- wrap-content: las dimensiones se ajustan al contenido -->
+    <EditText
+        android:id="@+id/TxtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"></EditText>
+    
+    
+    <TextView android:id="@+id/LblDate"
+        android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+   		android:text="@string/date"></TextView>
+    <EditText
+        android:id="@+id/TxtDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"></EditText>
+    
+   
+    <Button 
+        android:id="@+id/BtnEnter"
+        android:layout_width="200dp"
+        android:textSize="15sp"
+        android:layout_height="55dp"
+        android:text="@string/enter"></Button>
+    
+   </LinearLayout>

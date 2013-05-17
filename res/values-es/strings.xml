@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Top mummys</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="hello_world">¡Hola a todos!</string>
+	<string name="no_events">Cualquier evento</string>
+	<string name="single_event">Único evento</string>
+
+	
+	<!-- MENU -->
+	<string name="addUser">Eventos</string>
+	<string name="about">Acerca de</string>
+	<string name="events">Ver eventos</string>
+	<string name="food">Alimentación</string>
+	
+	
+	<string name="enter">Hecho</string>
+	<string name="name">ESCRIBA UN NOMBRE</string>
+	<string name="show_name">Quién:</string>
+	<string name ="body">Escriba algo más</string>
+	<string name = "datetime">YYYY:MM:DD</string>
+	<string name = "title">TÍTULO</string>
+	<string name = "hint_title">Médico/Colegio/Alimentación</string>
+	<string name="date">ESCOJA UN DÍA</string>
+	
+	<string name = "action_remove_item">Eliminar</string>
+	<string name = "action_call">Llamar</string>
+	<string name = "action_finish">Finalizar</string>
+	<string name = "action_next">Siguiente</string>
+	
+	<!-- CALENDAR -->
+	<string name = "currentdate">Hoy (M-D-YYYY):</string>
+	<string name = "currentdate2">Hoy (YYYY-M-D):</string>
+	<string name="changedate">Cambiar fecha</string>
+	<string name="show_events">Mostrar</string>
+	
+	<string name="help">Ayuda</string>
+	
+	
+	<!-- TOAST -->
+	<string name="toast">Un nuevo niño/a ha sido añadido con éxito</string>
+	<string name="show_date">Escoja la fecha</string>
+	
+	
+	<string name="edit">Editar</string>
+	
+	<string name="menu_insert">Nuevo evento</string>
+	<string name="menu_delete">Eliminar evento</string>
+	
+	<!-- Dialog -->
+	
+	<string name="yes">SÍ</string>
+	<string name="no">NO</string>
+	<string name="dialog_text">¿Realmente desea eliminarlo?</string>
+	
+	<!-- Zoom -->
+	
+	<string name="title_zoom">Ampliar</string>
+	<string name="message_zoom_touch_expand">Toca un Menú para ampliarlo.</string>
+	
+	<!-- Layout changes -->
+	
+	<string name="message_empty_layout_changes">Ningún evento</string>
+	
+	
+           
+     <!-- Accessibility-only descriptions -->
+    <string name="description_image_1">Image 1</string>
+    <string name="description_image_2">Image 2</string>
+    <string name="description_zoom_touch_close">Imagen ampliada (toque para cerrar)</string>
+    
+	
+    <string name="tab1">Profesor</string>
+    <string name="tab2">Pediatra</string>
+    <string name="tab3">Policía</string>
+    <string name="tab4">Ambulancia</string>
+    
+    <string name="cell1">902202122</string>
+    <string name="cell2">902202122</string>
+    <string name="cell3">902202122</string>
+    <string name="cell4">902202122</string>
+    
+    
+</resources>

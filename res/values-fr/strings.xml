@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Top mummys</string>
+    <string name="action_settings">Réglages</string>
+    <string name="hello_world">Salut!</string>
+	<string name="no_events">Événement</string>
+	<string name="single_event">Unique événement</string>
+
+	
+	<!-- MENU -->
+	<string name="addUser">Événements</string>
+	<string name="about">Plus information</string>
+	<string name="events">Regarder votre événements</string>
+	<string name="food">Cuisine</string>
+	
+	
+	<string name="enter">Fait</string>
+	<string name="name">TAPEZ UN NOM</string>
+	<string name="show_name">Qui:</string>
+	<string name ="body">Écrire plus</string>
+	<string name = "datetime">YYYY:MM:DD</string>
+	<string name = "title">TITRE</string>
+	<string name = "hint_title">Medicine/École/Cuisine</string>
+	<string name="date">CHOISIR LA DATE</string>
+	
+	<string name = "action_remove_item">Supprimer</string>
+	<string name = "action_call">Appleler</string>
+	<string name = "action_finish">Terminer</string>
+	<string name = "action_next">Prochaine</string>
+	
+	<!-- CALENDAR -->
+	<string name = "currentdate">aujourd´hui (M-D-YYYY):</string>
+	<string name = "currentdate2">aujourd´hui (YYYY-M-D):</string>
+	<string name="changedate">Changer la date</string>
+	<string name="show_events">Montrer</string>
+	
+	<string name="help">Aider</string>
+	
+	
+	<!-- TOAST -->
+	<string name="toast">Noveaux enfant ajoutée</string>
+	<string name="show_date">Choisir la date</string>
+	
+	
+	<string name="edit">Éditer</string>
+	
+	<string name="menu_insert">Nouveau événement</string>
+	<string name="menu_delete">Supprimer l´événement</string>
+	
+	<!-- Dialog -->
+	
+	<string name="yes">OUI</string>
+	<string name="no">NON</string>
+	<string name="dialog_text">Voulez-vous vraiment le supprimer?</string>
+	
+	<!-- Zoom -->
+	
+	<string name="title_zoom">Zoom</string>
+	<string name="message_zoom_touch_expand">Touch a MENU to pour zoomer</string>
+	
+	<!-- Layout changes -->
+	
+	<string name="message_empty_layout_changes">Non événements</string>
+	
+	
+           
+     <!-- Accessibility-only descriptions -->
+    <string name="description_image_1">Image 1</string>
+    <string name="description_image_2">Image 2</string>
+    <string name="description_zoom_touch_close">Image dilaté (toucher pour fermer)</string>
+    
+	
+    <string name="tab1">Professeur</string>
+    <string name="tab2">Pédiatre</string>
+    <string name="tab3">Police</string>
+    <string name="tab4">Ambulance</string>
+    
+    <string name="cell1">902202122</string>
+    <string name="cell2">902202122</string>
+    <string name="cell3">902202122</string>
+    <string name="cell4">902202122</string>
+    
+    
+</resources>

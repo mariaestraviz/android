@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="upm.dit.myapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+    
+        
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>  
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mums_icon_big"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="upm.dit.myapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="upm.dit.myapp.AddUsers">
+            </activity>
+            
+        <activity
+            android:name="upm.dit.myapp.CreateDBQlite">
+            </activity>
+            
+        <activity
+            android:name = "upm.dit.myapp.EditEvent"></activity>
+        
+        <activity
+            android:name = "upm.dit.myapp.DatePickerFragment"></activity>
+        
+        
+        <activity
+            android:name = "upm.dit.myapp.ZoomActivity"></activity>
+               
+        <activity 
+            android:name = "upm.dit.myapp.ReminderService"></activity>
+        
+        <activity 
+            android:name = "upm.dit.myapp.TableExample"></activity>
+        
+        <activity 
+            android:name = "upm.dit.myapp.SwipeImage"></activity>
+        
+        <activity 
+            android:name = "upm.dit.myapp.ShowEvent"></activity>
+        
+        <activity 
+            android:name = "upm.dit.myapp.AlarmTask"></activity>
+        
+        <activity 
+            android:name = "upm.dit.myapp.NotifyService"></activity>
+        
+        <activity 
+            android:name = "upm.dit.myapp.SendEmail"></activity>
+        
+        <service android:name="upm.dit.myapp.ScheduleService" />
+        <service android:name="upm.dit..NotifyService" />
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Top mummys</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="no_events">Any event</string>
+	<string name="single_event">Single event</string>
+
+	
+	<!-- MENU -->
+	<string name="addUser">Events</string>
+	<string name="about">About</string>
+	<string name="events">See your events</string>
+	<string name="food">Food</string>
+	
+	
+	<string name="enter">Done</string>
+	<string name="name">TYPE A NAME:</string>
+	<string name="show_name">Who:</string>
+	<string name ="body">WRITE THE BODY:</string>
+	<string name = "datetime">YYYY:MM:DD</string>
+	<string name = "title">TITLE</string>
+	<string name = "hint_title">Medical/School/Feed</string>
+	<string name="date">CHOOSE DATE:</string>
+	
+	<string name = "action_remove_item">Remove</string>
+	<string name = "action_call">Call</string>
+	<string name = "action_finish">Finish</string>
+	<string name = "action_next">Next</string>
+	
+	<!-- CALENDAR -->
+	<string name = "currentdate">Current Date (M-D-YYYY):</string>
+	<string name = "currentdate2">Current Date (YYYY-M-D):</string>
+	<string name="changedate">Change date</string>
+	<string name="show_events">Show</string>
+	
+	<string name="help">Help</string>
+	
+	<!-- mail -->
+	
+	<string name="subject">SUBJECT:</string>
+	
+	
+	<!-- TOAST -->
+	<string name="toast">A new child have beeen added</string>
+	
+	<string name="show_date">When:</string>
+	
+	
+	<string name="edit">Edit</string>
+	<string name="share">Share</string>
+	
+	<string name="menu_insert">New event</string>
+	<string name="menu_delete">Delete an event</string>
+	
+	<!-- Dialog -->
+	
+	<string name="yes">YES</string>
+	<string name="no">NO</string>
+	<string name="dialog_text">Do you really want to delete it</string>
+	
+	<!-- Zoom -->
+	
+	<string name="title_zoom">Zoom</string>
+	<string name="message_zoom_touch_expand">Touch a MENU to expand it.</string>
+	
+	<!-- Layout changes -->
+	
+	<string name="message_empty_layout_changes">No events</string>
+	
+	
+           
+     <!-- Accessibility-only descriptions -->
+    <string name="description_image_1">Image 1</string>
+    <string name="description_image_2">Image 2</string>
+    <string name="description_zoom_touch_close">Expanded image (touch to close)</string>
+    
+	
+    <string name="tab1">Teacher</string>
+    <string name="tab2">Pediatrician</string>
+    <string name="tab3">Police</string>
+    <string name="tab4">Ambulance</string>
+    
+    <string name="tab5">Airport</string>
+    <string name="tab6">Renfe</string>
+    <string name="tab7">Local Police</string>
+    
+    <string name="cell1">902202122</string>
+    <string name="cell2">916656020</string>
+    <string name="cell3">091</string>
+    <string name="cell4">061</string>
+    
+    <string name="cell5">913058343</string>
+    <string name="cell6">902240202</string>
+    <string name=" cell7">092</string>
+    
+    
+    <string name="time_notif">It\'s about time</string>
+    
+   
+    
+    
+</resources>

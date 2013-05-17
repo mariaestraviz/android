@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<!-- android:layout_width="200dp"
+        android:textSize="15sp"
+        android:layout_height="55dp" -->
+        
+        
+ <Button android:text="@string/addUser"
+     	android:drawableLeft="@drawable/id_card"
+        android:id="@+id/Button03"
+        android:layout_width="wrap_content"
+  		android:layout_height="wrap_content">
+</Button>
+
+ <Button android:text="@string/food"
+     	android:drawableLeft="@drawable/steak_128"
+        android:id="@+id/Button04"
+        android:layout_width="wrap_content"
+  		android:layout_height="wrap_content">
+</Button>
+
+     
+<Button android:text="@string/help"
+    	android:drawableLeft="@drawable/help"
+        android:id="@+id/Button02"
+        android:layout_width="wrap_content"
+  		android:layout_height="wrap_content" >
+</Button>
+
+  <Button android:text="@string/about"
+     	android:drawableLeft="@drawable/info"
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+  		android:layout_height="wrap_content">
+</Button>
+
+</LinearLayout>

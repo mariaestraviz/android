@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="autocomplete_array">
+        <item>Donner á manger</item>
+        <item>Medicine</item>
+        <item>École</item>
+    </string-array>
+</resources>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TabHost android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:id="@+id/tabHost"
+    	xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    	<TabWidget
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:id="@android:id/tabs"
+    		/>
+    	
+     	<FrameLayout
+     			android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			android:id="@android:id/tabcontent">
+    			
+     	    <RelativeLayout  
+     	        
+     	        android:id="@+id/tab1"
+     	        android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			android:paddingTop="60dp"
+    			android:paddingLeft="16dp"
+    			android:paddingRight="16dp"
+    			 >
+     	        
+     	        <TextView  
+     	            android:id="@+id/txt1"
+    				android:layout_width="0dp" 
+    				android:layout_height="wrap_content"
+    				android:text="@string/tab1"
+    				android:textIsSelectable="true"
+    				android:layout_alignParentLeft="true"
+        			android:layout_toLeftOf="@+id/txtNumber" /> 
+        			
+     	        <TextView
+     	            android:id = "@+id/txtNumber"
+     	            android:text="@string/cell1"
+     	            android:layout_width="96dp"
+					android:layout_height="wrap_content" 
+					android:textIsSelectable="true"
+					android:paddingLeft="10dp"
+        			android:layout_toLeftOf="@+id/callImage" />
+   				
+     			<ImageView android:id="@+id/callImage" 			   
+	  				android:src = "@drawable/dial"
+	  				android:clickable="true"  
+	  				android:contentDescription="@string/action_call"
+	  				android:layout_width="68dp"
+        			android:layout_height="wrap_content"
+        			android:layout_toLeftOf="@+id/sendImage"
+        			/>
+     			
+     			<!-- android:layout_alignParentRight="true" -->
+     			
+     			<ImageView android:id="@+id/sendImage" 			   
+	  				android:src = "@drawable/send_32"
+	  				android:clickable="true"  
+	  				android:contentDescription="@string/action_call"
+	  				android:layout_width="68dp"
+        			android:layout_height="wrap_content"
+        			android:layout_alignParentRight="true"/>
+     			
+     	       
+     	        
+     	    </RelativeLayout>
+     
+     	    <RelativeLayout 
+     	        android:id="@+id/tab2"
+     	        android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			android:paddingTop="60dp"
+    			android:paddingLeft="16dp"
+    			android:paddingRight="16dp" >
+     	        
+     	        <TextView  
+     	            android:id="@+id/txt2"
+    				android:layout_width="96dp" 
+    				android:layout_height="wrap_content"
+    				android:text="@string/tab2"
+    				android:textIsSelectable="true"
+    				android:layout_alignParentLeft="true"/>
+     	        
+     	        <TextView
+     	            android:id = "@+id/txtNumber2"
+     	            android:text="@string/cell2"
+     	            android:layout_width="96dp"
+					android:layout_height="wrap_content" 
+					android:textIsSelectable="true"
+        			android:layout_toLeftOf="@+id/callImage2" />
+   				
+     			<ImageView android:id="@+id/callImage2" 			   
+	  				android:src = "@drawable/dial"
+	  				android:clickable="true"  
+	  				android:contentDescription="@string/action_call"
+	  				android:layout_width="68dp"
+        			android:layout_height="wrap_content"
+        			android:layout_alignParentRight="true"/>
+     			
+     			
+     			
+     			<TextView  
+     	            android:id="@+id/txt4"
+    				android:layout_width="96dp" 
+    				android:layout_height="wrap_content"
+    				android:text="@string/tab4"
+    				android:textIsSelectable="true"
+    				android:layout_alignParentLeft="true"
+    				android:layout_marginTop="10dp"
+    				android:layout_below="@+id/txt2"/>
+     	        
+     	        <TextView
+     	            android:id = "@+id/txtNumber4"
+     	            android:text="@string/cell4"
+     	            android:layout_width="96dp"
+					android:layout_height="wrap_content" 
+					android:textIsSelectable="true"
+					android:layout_toRightOf="@+id/txt4"
+					android:layout_toLeftOf="@+id/callImage4"
+					android:layout_below="@+id/txtNumber2"
+					android:layout_marginTop="10dp"/>
+   				
+     			<ImageView android:id="@+id/callImage4" 			   
+	  				android:src = "@drawable/dial"
+	  				android:clickable="true"  
+	  				android:contentDescription="@string/action_call"
+	  				android:layout_width="68dp"
+        			android:layout_height="wrap_content"
+        			android:layout_below="@+id/callImage2"
+        			android:layout_alignParentRight="true"
+        			android:layout_marginTop="10dp"/>
+     	        
+     	    </RelativeLayout>
+     	    
+     	    <RelativeLayout 
+     	        android:id="@+id/tab3"
+     	        android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			android:paddingTop="60dp"
+    			android:paddingLeft="16dp"
+    			android:paddingRight="16dp">
+     	        
+     	        <TextView  
+     	            android:id="@+id/txt3"
+    				android:layout_width="96dp" 
+    				android:layout_height="wrap_content"
+    				android:text="@string/tab3"
+    				android:textIsSelectable="true"
+    				android:layout_alignParentLeft="true"/>
+     	        
+     	       <TextView
+     	            android:id = "@+id/txtNumber3"
+     	            android:text="@string/cell3"
+     	            android:layout_width="96dp"
+					android:layout_height="wrap_content" 
+					android:textIsSelectable="true"
+        			android:layout_toLeftOf="@+id/callImage3" />
+   				
+     			<ImageView android:id="@+id/callImage3" 			   
+	  				android:src = "@drawable/dial"
+	  				android:clickable="true"  
+	  				android:contentDescription="@string/action_call"
+	  				android:layout_width="68dp"
+        			android:layout_height="wrap_content"
+        			android:layout_alignParentRight="true"/>
+     			
+     			<!-- OTRO -->
+     			<TextView  
+     	            android:id="@+id/txt5"
+    				android:layout_width="96dp" 
+    				android:layout_height="wrap_content"
+    				android:text="@string/tab5"
+    				android:textIsSelectable="true"
+    				android:layout_alignParentLeft="true"
+    				android:layout_below="@+id/txt3"
+    				android:layout_marginTop="10dp"/>
+     	        
+     	        <TextView
+     	            android:id = "@+id/txtNumber5"
+     	            android:text="@string/cell5"
+     	            android:layout_width="96dp"
+					android:layout_height="wrap_content" 
+					android:textIsSelectable="true"
+					android:layout_below="@+id/txtNumber3"
+        			android:layout_toLeftOf="@+id/callImage5" 
+        			android:layout_marginTop="10dp"/>
+   				
+     			<ImageView android:id="@+id/callImage5" 			   
+	  				android:src = "@drawable/dial"
+	  				android:clickable="true"  
+	  				android:contentDescription="@string/action_call"
+	  				android:layout_width="68dp"
+        			android:layout_height="wrap_content"
+        			android:layout_below="@+id/callImage3"
+        			android:layout_alignParentRight="true"
+        			android:layout_marginTop="10dp"/>
+     			
+     			<!-- otro -->
+     			
+     			<TextView  
+     	            android:id="@+id/txt6"
+    				android:layout_width="96dp" 
+    				android:layout_height="wrap_content"
+    				android:text="@string/tab6"
+    				android:textIsSelectable="true"
+    				android:layout_alignParentLeft="true"
+					android:layout_below="@+id/txt5"
+					android:layout_marginTop="10dp"/>
+     	        
+     	        <TextView
+     	            android:id = "@+id/txtNumber6"
+     	            android:text="@string/cell6"
+     	            android:layout_width="96dp"
+					android:layout_height="wrap_content" 
+					android:textIsSelectable="true"
+        			android:layout_toLeftOf="@+id/callImage6"
+        			android:layout_below="@+id/txtNumber5"
+        			android:layout_marginTop="10dp" />
+   				
+     			<ImageView android:id="@+id/callImage6" 			   
+	  				android:src = "@drawable/dial"
+	  				android:clickable="true"  
+	  				android:contentDescription="@string/action_call"
+	  				android:layout_width="68dp"
+        			android:layout_height="wrap_content"
+        			android:layout_alignParentRight="true"
+        			android:layout_below="@+id/callImage5"
+        			android:layout_marginTop="10dp"/>
+     	    </RelativeLayout>
+
+     	    
+ 	 </FrameLayout>
+  </TabHost>

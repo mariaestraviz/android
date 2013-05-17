@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:fitsSystemWindows="true" 
+    android:alwaysDrawnWithCache="false"
+    android:background="@drawable/clipboard_paper"
+    android:paddingTop="80dp"
+    android:paddingLeft="60dp"
+    android:paddingRight="25dp">  
+    
+    <!--  
+    <ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scaleType="fitCenter"
+    android:contentDescription="@string/show_events"
+    android:src="@drawable/clipboard_paper"/> -->
+    
+         
+    <TextView 
+        android:id = "@+id/Name"
+        android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:text="@string/show_name"
+    	android:textIsSelectable="true"
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+    
+    <TextView 
+        android:id = "@+id/eventName"
+        android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/Name"
+    	android:text="@string/tab1"
+    	android:textSize="25sp"
+    	android:textIsSelectable="true"
+    	android:textStyle="bold"
+    	android:textColor="@color/BrightBlue"/>
+    
+    
+    <TextView 
+        android:id = "@+id/Date"
+        android:layout_below="@+id/eventName"
+        android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:text="@string/show_date"
+    	android:textIsSelectable="true"
+    	android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+    
+    <TextView 
+        android:id = "@+id/eventDate"
+        android:layout_below="@+id/Date"
+        android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:text="@string/tab1"
+    	android:textSize="25sp"
+    	android:textIsSelectable="true"
+    	android:textColor="@color/BrightBlue"
+    	android:textStyle="bold"/>
+    
+    <TextView
+        android:id = "@+id/eventBody"
+        android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent"
+    	android:text="@string/tab1"
+    	android:textIsSelectable="true"
+    	android:layout_below="@+id/Date"
+    	android:layout_marginTop="40dp"
+    	android:textSize="25sp"
+    	android:textColor="@color/BrightBlue"
+    	android:textStyle="bold"/>
+    
+    
+    </RelativeLayout>

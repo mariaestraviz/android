@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+    <string-array name = "about_array">
+        <item>Help</item>
+        <item>About</item>
+        <item>Terms of use</item>
+        <item>Privacy Policy</item>
+        
+    </string-array>
+    
+
+</resources>
